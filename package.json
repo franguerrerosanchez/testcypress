@@ -1,0 +1,16 @@
+{
+  "name": "TestCypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ejecucion": "npx cypress run --spec 'cypress/integration/todos.spec.js'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^3.8.3"
+  }
+}
